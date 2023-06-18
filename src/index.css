@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+  --font-family: 'Playfair Display', serif;
+  --gradient-text: linear-gradient(89.97deg, #0f4502 1.84%, #4ca224 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #257012 -13.86%, #4ca224 99.55%);
+  
+  --color-bg: rgb(219, 239, 182);
+  --color-footer : #eeffde;
+  --color-blog: #c7fa6f;
+  --color-text: #3e7c12;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
